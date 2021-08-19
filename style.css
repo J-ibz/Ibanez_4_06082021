@@ -11,7 +11,7 @@ a:focus {
 }
 .background-for-contrast {
   background-color: #f3976c !important;
-  border-radius: 1.5em;
+
   padding: 10px;
 }
 .color-text-for-contrast {
@@ -25,8 +25,11 @@ a:focus {
 blockquote p {
   font-size: 1.2em;
 }
-footer {
-  border-radius: 0 !important;
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 a,
