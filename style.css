@@ -727,6 +727,8 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  /* ****test**** */
+  display: block;
 }
 
 h2 {
