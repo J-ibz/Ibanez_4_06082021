@@ -619,17 +619,17 @@ a[data-lightbox]:hover img {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 5px;
+  /* bottom: 5px; */
 }
 
 .close-lightbox {
-  color: #fff;
+  color: #575757 !important;
   font-size: 30px;
   position: absolute;
   top: 20px;
   right: 20px;
   z-index: 20;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: white; */
   border: none;
   line-height: 30px;
   padding: 0 9px 5px;
@@ -647,7 +647,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.9);
-  background: rgba(0, 0, 0, 0.5);
+  background: white;
   transition: all 0.2s ease-in-out;
   position: absolute;
   top: 45%;
